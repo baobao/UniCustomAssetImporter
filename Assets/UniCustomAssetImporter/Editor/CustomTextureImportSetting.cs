@@ -54,10 +54,12 @@ namespace Shibuya24.Tools.Editor
         public string regex = "";
         public TextureImporterCompression textureCompression;
         public TextureImporterType textureType = TextureImporterType.Sprite;
+        public SpriteImportMode spriteImportMode = SpriteImportMode.Single;
         public FilterMode filterMode = FilterMode.Bilinear;
         public TextureWrapMode wrapMode = TextureWrapMode.Clamp;
         [Header("Each Platform Settings")]
         public TexturePlatformSettings[] platformSettings;
+
     }
 
     [Serializable]

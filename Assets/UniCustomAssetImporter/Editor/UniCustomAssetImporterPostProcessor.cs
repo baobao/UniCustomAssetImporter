@@ -95,6 +95,7 @@ namespace Shibuya24.Tools.Editor
         {
             importer.textureCompression = setting.textureCompression;
             importer.textureType = setting.textureType;
+            importer.spriteImportMode = setting.spriteImportMode;
             importer.filterMode = setting.filterMode;
             importer.wrapMode = setting.wrapMode;
 
