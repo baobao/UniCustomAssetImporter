@@ -1,7 +1,7 @@
 {
   "name": "info.shibuya.uni-custom-asset-importer",
   "displayName": "UniCustomAssetImporter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "unity": "2022.3",
   "description": "A Unity editor extension to customize asset settings during AssetImport.",
   "keywords": [
@@ -12,6 +12,6 @@
   "category": "editor extensions",
   "author": {
     "name": "ohbashunsuke",
-    "url": "https://twitter.com/ohbashunsuke"
+    "url": "https://x.com/ohbashunsuke"
   }
 }
