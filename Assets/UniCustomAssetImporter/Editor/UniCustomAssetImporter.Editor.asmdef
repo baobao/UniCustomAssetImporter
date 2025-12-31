@@ -1,6 +1,6 @@
 {
     "name": "UniCustomAssetImporter.Editor",
-    "rootNamespace": "",
+    "rootNamespace": "Shibuya24.Tools.Editor",
     "references": [],
     "includePlatforms": [
         "Editor"

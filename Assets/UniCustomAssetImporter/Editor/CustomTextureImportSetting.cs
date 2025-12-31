@@ -52,6 +52,7 @@ namespace Shibuya24.Tools.Editor
         [Space(10)]
         public DefaultAsset folder;
         public string regex = "";
+        public int pixelsPerUnit = 100;
         public TextureImporterCompression textureCompression;
         public TextureImporterType textureType = TextureImporterType.Sprite;
         public SpriteImportMode spriteImportMode = SpriteImportMode.Single;

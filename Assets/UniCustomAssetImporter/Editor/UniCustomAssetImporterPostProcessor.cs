@@ -73,12 +73,12 @@ namespace Shibuya24.Tools.Editor
             }
         }
 
-        private bool IsMatchPathRule(string assetPath, CustomTextureImportSetting setting)
+        private static bool IsMatchPathRule(string assetPath, CustomTextureImportSetting setting)
         {
             if (setting.folder != null)
             {
-                var path = AssetDatabase.GetAssetPath(setting.folder);
-                if (assetPath.Contains(path))
+                var folderPath = AssetDatabase.GetAssetPath(setting.folder);
+                if (assetPath.Contains(folderPath))
                 {
                     return true;
                 }
@@ -94,6 +94,7 @@ namespace Shibuya24.Tools.Editor
         private void ApplyTextureImportSetting(TextureImporter importer, CustomTextureImportSetting setting)
         {
             importer.textureCompression = setting.textureCompression;
+            importer.spritePixelsPerUnit = setting.pixelsPerUnit;
             importer.textureType = setting.textureType;
             importer.spriteImportMode = setting.spriteImportMode;
             importer.filterMode = setting.filterMode;
